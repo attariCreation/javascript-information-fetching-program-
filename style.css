@@ -1,0 +1,109 @@
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+}
+main{
+	padding:20px;
+
+	width:100%;
+}
+section.user-info{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+/*padding: 10px;*/
+/*margin: 50px;*/
+
+
+}
+h1{
+	font-family: sans-serif;	
+	background-color: gray;
+	color: white;	
+	padding: 10px;
+}
+.post-parent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+	margin-block: 20px;
+
+	width: 90%;
+
+
+}
+.posts{
+
+
+
+	/*overflow: auto;;*/
+	width: 100%;
+
+	/*padding: 10px;*/
+
+	display: flex;
+
+	/*flex-basis: 16%;*/
+
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+
+
+	/*margin-inline: 2%;*/
+
+	margin-block: 20px;
+
+
+	background-color: lightgray;
+	padding-block: 20px;
+
+}
+.posts .title{
+	height: 30%;
+
+	width: 80%;
+	text-align: center;
+
+	font-weight: 700;
+	/*margin: 10px;*/
+
+	background-color: white;
+	color: gray;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	padding-block: 5px;
+
+	padding-inline: 5px;
+
+	margin-block: 10px;
+}
+
+.posts .body{
+	font-weight: 400;
+	font-size: 14px	
+	height: 70%;
+
+	padding-inline: 5px;
+
+	/*margin: 20%;*/
+	text-align: top;
+
+	align-self: flex-start;
+}
